@@ -1,35 +1,71 @@
 
-html, body{margin:20;padding:0}
-
-body{
-	font: 96% arial,sans-serif;
+html, body, h1, h2, h3, h4, p, ol, ul, li, a {
+	margin:20;
+	padding:0;
+	font: arial, sans-serif;
 	text-align:left;
-	background-image:/images/backgrounds/latepaper3-494x370.jpg;
-	}
-p{
-	margin:0 10px 10px;
-	font-family: 'Open Sans', sans-serif;
+
 	}
 
-h1{
-	font-family: 'Aref Ruqaa', serif;
-	text-transform: uppercase;
-	text-align:center;
-	font:200%;
-	color: red;
-		}
-h2{
-	font-family: 'Aref Ruqaa', serif;
-	text-transform: uppercase;
-	text-align:left;
-	font:150%;
-	/*color:*/ 
+html {
+  background: url(images/backgrounds/desert_sand_dunes-wallpaper-1920x1080.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
-	
 
 
-	
-a{padding:5px; text-decoration:none; color:#000000;}
+@font-face {
+	font-family: "Arabic Magic";
+	src: url("fonts/arabic_magic/Arabic Magic.ttf");
+	}
+.portal {
+
+}
+
+.portal h1 {
+	font-family: "Arabic Magic", Helvetica, Arial, sans-serif;
+	text-align: center;
+
+}
+
+.portal li {
+	display: inline-block;
+	font-family: "Arabic Magic", Helvetica, Arial, sans-serif;
+}
+
+
+.nav-block {
+	background-color: rgba(255, 150, 51, 0.3);
+	width: 100px;
+	padding-left: 12px;
+
+}
+.nav-block h2 {
+	font-family: "Arabic Magic", Helvetica, Arial, sans-serif;
+
+}
+.nav-block li{
+	list-style-type: none;
+  text-align: center;
+}
+
+.recrap {
+	width: 700px;
+	background: url(images/backgrounds/latepaper3-494x370.jpg);
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	}
+
+.recrap p {
+	padding-left: 50px
+	}
+
+
+
+
+/* a{padding:5px; text-decoration:none; color:#000000;}
 div#header{background-color:#F3F2ED;}
 div#header h1{height:80px;line-height:80px;margin:0;padding-left:10px;}
 div#container{text-align:left}
@@ -46,3 +82,4 @@ div#content{margin: 0 150px}
 div#navigation{float:left;width:150px;margin-left:-700px}
 div#extra{float:left;width:150px;margin-left:-150px}
 div#footer{clear:left;width:100%}
+*/

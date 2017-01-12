@@ -1,0 +1,8 @@
+Explicity Match on DST phone number
+
+Source as "*"
+
+DST address as Mediant 3 IP
+
+If the devices need a trusted cert between them, this will not work.
+
