@@ -1,17 +1,21 @@
-	html, body
-	{
-		height: 100%;
-	}
+	html {
+  background: url(images/backgrounds/desert_sand_dunes-wallpaper-1920x1080.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 	body
 	{
 		margin: 0px;
 		padding: 0px;
-		background: #000 url(images/backgrounds/desert_sand_dunes-wallpaper-1920x1080.jpg) no-repeat center top;
+		height: 100%;
 		font-family: 'Source Sans Pro', sans-serif;
 		font-size: 12pt;
 		font-weight: 300;
-		color: #000000;
+		/* color: #000000; */
 	}
 
 
@@ -56,6 +60,7 @@
 		overflow: hidden;
 		margin: 0em auto;
 		width: 1200px;
+
 	}
 
 /*********************************************************************************/
@@ -366,7 +371,7 @@
 		overflow: hidden;
 		width: 1000px;
 		padding: 7em 100px 3em 100px;
-		background: #FFF; 
+		/* background: #FFF; */
 	}
 
 	#page .boxA,
@@ -410,7 +415,7 @@
 		text-transform: uppercase;
 		text-decoration: none;
 		font-weight: 700;
-		color: rgba(0,0,0,0.8);
+		/* color: rgba(0,0,0,0.8); */
 	}
 
 /*********************************************************************************/
