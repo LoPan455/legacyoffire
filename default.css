@@ -266,7 +266,7 @@
 	#header-wrapper
 	{
 		overflow: hidden;
-		height: 40em;
+		height: 20em;
 	}
 
 	#header
@@ -274,7 +274,7 @@
 		position: relative;
 		margin-top: 3em;
 		padding: 3em 0em;
-		background: #96063b;
+		/* background: #96063b;*/
 	}
 
 /*********************************************************************************/
@@ -286,6 +286,7 @@
 		position: absolute;
 		top: 1.5em;
 		left: 2em;
+
 	}
 
 	#logo h1
