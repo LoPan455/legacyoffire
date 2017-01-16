@@ -5,7 +5,7 @@ html, body, h1, h2, h3, h4, p, ol, ul, li, a {
 	font: arial, sans-serif;
 	text-align:left;
 
-	}
+}
 
 html {
   background: url(images/backgrounds/desert_sand_dunes-wallpaper-1920x1080.jpg) no-repeat center center fixed;
@@ -18,8 +18,10 @@ html {
 
 @font-face {
 	font-family: "Arabic Magic";
+	color: black;
 	src: url("fonts/arabic_magic/Arabic Magic.ttf");
 	}
+
 .portal {
 
 }
@@ -38,7 +40,7 @@ html {
 
 .nav-block {
 	background-color: rgba(255, 150, 51, 0.3);
-	width: 100px;
+	width: 120px;
 	padding-left: 12px;
 
 }
@@ -52,14 +54,26 @@ html {
 }
 
 .recrap {
+	padding-top: 60px;
+	padding-bottom: 100px;
+	margin: auto;
 	width: 700px;
 	background: url(images/backgrounds/latepaper3-494x370.jpg);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
+
 	}
+.recrap h2 {
+	font-family: "Arabic Magic";
+	text-align: center;
+
+}
 
 .recrap p {
-	padding-left: 50px
+	margin-left: 60px;
+	margin-right: 60px;
+
+
 	}
 
 
