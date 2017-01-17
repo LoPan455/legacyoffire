@@ -168,7 +168,7 @@
 	{
 		display: inline-block;
 		padding: 1em 2em 1em 2em;
-		background: #96063b;
+		background: hsl(30, 100%, 15%);
 		letter-spacing: 0.20em;
 		text-decoration: none;
 		text-transform: uppercase;
@@ -274,7 +274,8 @@
 		position: relative;
 		margin-top: 3em;
 		padding: 3em 0em;
-		/* background: #96063b;*/
+		background: hsl(30, 100%, 15%);
+
 	}
 
 /*********************************************************************************/
@@ -352,7 +353,11 @@
 		width: 1000px;
 		margin-top: 3em;
 		padding: 4em 100px 3em 100px;
-		background: #FFF;
+		background: url("images/backgrounds/latepaper3-494x370.jpg");
+		background-size: cover;
+	 background-repeat: no-repeat;
+	 background-position: 50% 50%;
+
 	}
 
 
@@ -420,7 +425,19 @@
 	}
 
 /*********************************************************************************/
-/* Content                                                                       */
+/*
+Recraps
+*/
+
+.recrap body{
+	background: url(images/backgrounds/desert_sand_dunes-wallpaper-1920x1080.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+                                                                       */
 /*********************************************************************************/
 
 	#content
